@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg" >
+
+<!--     <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="top" >
+
+        这里属于中间和底部切换的xml
+
+    </LinearLayout> -->
+  
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="52.7dip" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/footbar_layout_ly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom" >
+
+        <include layout="@layout/home_footbar_layout" >
+        </include>
+    </LinearLayout>
+
+</RelativeLayout>

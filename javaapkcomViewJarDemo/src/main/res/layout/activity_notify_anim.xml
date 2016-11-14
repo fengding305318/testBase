@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/scale"
+            style="@style/my_btn"
+            android:text="scale" />
+
+        <Button
+            android:id="@+id/thumbSlider"
+            style="@style/my_btn"
+            android:text="thumbSlider" />
+
+        <Button
+            android:id="@+id/jelly"
+            style="@style/my_btn"
+            android:text="jelly" />
+
+        <Button
+            android:id="@+id/slidein"
+            style="@style/my_btn"
+            android:text="slidein" />
+
+        <Button
+            android:id="@+id/flip"
+            style="@style/my_btn"
+            android:text="flip" />
+
+        <Button
+            android:id="@+id/slideOnTop"
+            style="@style/my_btn"
+            android:text="slideOnTop" />
+
+        <Button
+            android:id="@+id/standard"
+            style="@style/my_btn"
+            android:text="standard" />
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/mLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+</RelativeLayout>

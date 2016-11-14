@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\fengding\ADB\sockettest\AMap_Android_API_2DMap_Demo_V2.8.1\assets"><file name="arrow.png" path="C:\fengding\ADB\sockettest\AMap_Android_API_2DMap_Demo_V2.8.1\assets\arrow.png"/></source></dataSet><dataSet config="debug"><source path="C:\fengding\ADB\sockettest\AMap_Android_API_2DMap_Demo_V2.8.1\build-types\debug\assets"/></dataSet></merger>

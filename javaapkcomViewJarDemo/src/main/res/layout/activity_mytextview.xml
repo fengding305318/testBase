@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.mytextview.CustomMarqueeTextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="这是一个一直跑马灯效果的textview，是一个自定义的textView" >
+    </com.example.mytextview.CustomMarqueeTextView>
+    
+    <com.example.mytextview.CustomMarqueeTextView
+        android:id="@+id/myTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="这是一个一直跑马灯效果的textview，是一个自定义的textView" >
+    </com.example.mytextview.CustomMarqueeTextView>
+    
+    <com.example.mytextview.CustomMarqueeTextView
+        android:id="@+id/myTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="这是一个一直跑马灯效果的textview，是一个自定义的textView" >
+    </com.example.mytextview.CustomMarqueeTextView>
+
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="能获取焦点的一个Button"/>
+    
+</LinearLayout>

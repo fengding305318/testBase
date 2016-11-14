@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/fengding/ADB/sockettest/continuousIatDemo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="changing_text1">#ff006aff</color>
+    <color name="changing_text2">#ff002aff</color>
+    <color name="changing_text3">#ff7800ff</color>
+    <color name="curruent_text">#ff2d333d</color>
+    <!-- From: file:/C:/fengding/ADB/sockettest/continuousIatDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_id">565fe584</string>
+    <string name="app_name">连续识别演示</string>
+</resources>

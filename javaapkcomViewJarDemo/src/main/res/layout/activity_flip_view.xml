@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="欲知更多详细代码， 可以运行开源项目里面的viewflip折叠,里面很多类控件，包括Fragment等的折叠"/>
+
+    <Button 
+        android:id="@+id/txtBtn"
+        style="@style/demoButton"
+        android:layout_marginTop="20dp"
+        android:text="TEXT"/>
+    
+    <Button 
+        android:id="@+id/buttonBtn"
+        style="@style/demoButton"
+        android:text="BUTTON"/>
+    
+    <Button 
+        android:id="@+id/xmlBtn"
+        style="@style/demoButton"
+        android:text="XML Configuration"/>
+    
+</LinearLayout>

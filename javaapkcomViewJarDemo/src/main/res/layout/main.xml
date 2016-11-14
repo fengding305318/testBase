@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DialogActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/shimmerBtn"
+                android:text="TextView、Button字体闪烁"
+                style="@style/demoButton" />
+
+            <Button
+                android:id="@+id/slidingDrawerBtn"
+                style="@style/demoButton"
+                android:text="左右上下抽屉式拖动(这是一个android自带的控件)"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/listviewFreshBtn"
+                style="@style/demoButton"
+                android:text="ListView上拉刷新" />
+
+            <Button
+                android:id="@+id/curlPageBtn"
+                style="@style/demoButton"
+                android:text="翻页效果" />
+
+            <Button
+                android:id="@+id/qrZxingBtn"
+                style="@style/demoButton"
+                android:text="二维码扫描" />
+
+            <Button
+                android:id="@+id/shapeMoveAnimBtn"
+                style="@style/demoButton"
+                android:text="ShapeHolder图形上下左右移动效果" />
+
+            <Button
+                android:id="@+id/asyncTaskBtn"
+                style="@style/demoButton"
+                android:text="异步处理progress" />
+
+            <Button
+                android:id="@+id/asyncLoadImage"
+                style="@style/demoButton"
+                android:text="异步网络图片加载" />
+
+            <Button
+                android:id="@+id/rotate3dAnim"
+                style="@style/demoButton"
+                android:text="3D图片旋转" />
+
+            <Button
+                android:id="@+id/indexListBtn"
+                style="@style/demoButton"
+                android:text="排序通讯录List（包括自定义Edit搜索，自定义bar的显示）"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/slidMenuBtn"
+                style="@style/demoButton"
+                android:text="左右添加fragment，类似菜单的滑动显示" 
+                android:textSize="15sp"/>
+            
+            <Button
+                android:id="@+id/viewSlipBtn"
+                style="@style/demoButton"
+                android:text="左右view的滑动效果，类似viewflip" 
+                android:textSize="16sp"/>
+            
+            <Button
+                android:id="@+id/myViewBtn"
+                style="@style/demoButton"
+                android:text="自定义TextView一直跑马灯的效果" 
+                android:textSize="15sp"/>
+            
+            <Button
+                android:id="@+id/loadHtml5Btn"
+                style="@style/demoButton"
+                android:text="android加载Html5代码的实现"/>
+            
+            <Button
+                android:id="@+id/pullDoorBtn"
+                style="@style/demoButton"
+                android:text="页面向上滑，类似开门的效果"/>
+            
+            <Button
+                android:id="@+id/lensFocusBtn"
+                style="@style/demoButton"
+                android:text="镜头由远及近的效果"/>
+            
+            <Button
+                android:id="@+id/yingbiRotateBtn"
+                style="@style/demoButton"
+                android:text="硬币的正反面翻转"/>
+            
+            <Button
+                android:id="@+id/centerOpenActBtn"
+                style="@style/demoButton"
+                android:text="Activity的中心打开方式"/>
+            
+            <Button
+                android:id="@+id/taobaoMenuBtn"
+                style="@style/demoButton"
+                android:text="淘宝菜单打开方式"/>
+            
+            <Button
+                android:id="@+id/youkuMenuBtn"
+                style="@style/demoButton"
+                android:text="优酷菜单打开方式"/>
+            
+            <Button
+                android:id="@+id/galleryLookBtn"
+                style="@style/demoButton"
+                android:text="相册的3d浏览"/>
+            
+            <Button
+                android:id="@+id/wheelBtn"
+                style="@style/demoButton"
+                android:text="地点和时间的滚轮选择效果"/>
+            
+            <Button
+                android:id="@+id/seachFlyBtn"
+                style="@style/demoButton"
+                android:text="自定义Framelayout字体飞入飞出的效果" 
+                android:textSize="15sp"/>
+            
+            <Button
+                android:id="@+id/circleMenuBtn"
+                style="@style/demoButton"
+                android:text="旋转菜单" 
+                android:textSize="15sp"/>
+            
+            <Button
+                android:id="@+id/deleteListViewBtn"
+                style="@style/demoButton"
+                android:text="滑动删除ListView的Item"/>
+            
+            <Button
+                android:id="@+id/dragListviewBtn"
+                style="@style/demoButton"
+                android:text="item的移动+动画效果"/>
+            
+            <Button
+                android:id="@+id/buttonToProgress"
+                style="@style/demoButton"
+                android:text="按钮变进度条效果"/>
+            
+            <Button
+                android:id="@+id/dialogAnimBtn"
+                style="@style/demoButton"
+                android:text="Dialog出现的效果"/>
+            
+            <Button
+                android:id="@+id/jumpTextBtn"
+                style="@style/demoButton"
+                android:text="Text字体跳动搞的效果"/>
+            
+            <Button
+                android:id="@+id/notifycationBtn"
+                style="@style/demoButton"
+                android:text="Notifycation提示动画显示"/>
+            
+            <Button
+                android:id="@+id/expandableListviewBtn"
+                style="@style/demoButton"
+                android:text="二级列表的expandablelistview控件"/>
+            
+            <Button
+                android:id="@+id/useStyleBtn"
+                style="@style/demoButton"
+                android:text="如何使用style实例"/>
+            
+            <Button
+                android:id="@+id/flipviewBtn"
+                style="@style/demoButton"
+                android:text="各种布局、控件的折叠翻效果"/>
+            
+            <Button
+                android:id="@+id/shimmerJumpTextBtn"
+                style="@style/demoButton"
+                android:text="字体水波跳动+草书字体"/>
+            
+            <Button
+                android:id="@+id/progressWithNumBtn"
+                style="@style/demoButton"
+                android:text="带数字的简易进度条"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

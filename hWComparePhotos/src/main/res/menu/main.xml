@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hwcomparephotos.MainActivity" 
+    >
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"
+        app:showAsAction="never"
+        android:visible="true"/>
+    
+    <item
+        android:id="@+id/loc_settings"
+        android:orderInCategory="100"
+        android:title="@string/loc_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/recog_settings"
+        android:orderInCategory="100"
+        android:title="@string/recog_settings"
+        app:showAsAction="never"/>
+
+</menu>

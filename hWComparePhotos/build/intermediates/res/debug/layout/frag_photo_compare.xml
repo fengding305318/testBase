@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white"
+    >
+	
+		<TextView 
+		    android:id="@+id/tv_center_mark"
+		    android:layout_width="10dip"
+		    android:layout_height="156dip"
+		    android:layout_centerInParent="true"
+		    />
+		<ImageView 
+		    android:id="@+id/img_photo1"
+		    android:layout_width="132dip"
+		    android:layout_height="156dip"
+		    android:clickable="true"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/icon_addpic_unfocused"
+		    android:layout_toLeftOf="@id/tv_center_mark"
+		    android:layout_marginLeft="10dip"
+		    android:layout_alignTop="@id/tv_center_mark"
+		    />
+		<ImageView 
+		    android:id="@+id/img_photo2"
+		    android:layout_width="132dip"
+		    android:layout_height="156dip"
+		    android:clickable="true"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/icon_addpic_unfocused"
+		    android:layout_toRightOf="@id/tv_center_mark"
+		    android:layout_marginRight="10dip"
+		    android:layout_alignTop="@id/tv_center_mark"
+		    />
+		<TextView 
+		    android:id="@+id/tv_result"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@id/tv_center_mark"
+	        android:gravity="center"
+	        android:padding="10dip"
+	        android:background="@color/aliceblue"
+	        android:textColor="@color/coral"
+	        android:textSize="18sp"
+	        android:layout_marginBottom="20dip"
+		    />
+		    
+		<Button 
+		    android:id="@+id/btn_start"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/coral"
+	        android:textSize="18sp"
+	        android:text="开始比对"
+	        android:gravity="center"
+	        android:layout_below="@id/tv_center_mark"
+		    android:layout_margin="20dip"
+		    />
+		    
+		 <Button 
+		    android:id="@+id/btn_getFeature"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/coral"
+	        android:textSize="18sp"
+	        android:text="提取图片集模板"
+	        android:gravity="center"
+		    />
+		 
+		 <ProgressBar
+		     android:id="@+id/progressBar1"
+		     style="?android:attr/progressBarStyleHorizontal"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_alignLeft="@+id/img_photo1"
+		     android:layout_alignRight="@+id/img_photo2"
+		     android:layout_below="@+id/btn_getFeature" />
+		 
+		<!-- android:onClick="onCompareBtnClickListener" -->
+
+</RelativeLayout>
+<!-- From: file:/C:/fengding/ADB/sockettest/hWComparePhotos/src/main/res/layout/frag_photo_compare.xml -->

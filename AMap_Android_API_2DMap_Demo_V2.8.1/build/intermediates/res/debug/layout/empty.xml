@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/root"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+</FrameLayout>
+<!-- From: file:/C:/fengding/ADB/sockettest/AMap_Android_API_2DMap_Demo_V2.8.1/res/layout/empty.xml -->

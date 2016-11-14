@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_big">55.0dip</dimen>
+    <dimen name="tab_small">40.0dip</dimen>
+    <dimen name="image_width">130.0dip</dimen>
+    <dimen name="image_height">90.0dip</dimen>
+</resources>

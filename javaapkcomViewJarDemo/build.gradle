@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.example.androidviewjardemo"
+        minSdkVersion 8
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.+'
+    compile files('libs/asyncLoadImage.jar')
+    compile files('libs/curlPageJar.jar')
+    compile files('libs/DialogAnim.jar')
+    compile files('libs/flipView.jar')
+    compile files('libs/notifycationAnim.jar')
+    compile files('libs/qrZxing.jar')
+    compile files('libs/Rotate3dAnim.jar')
+    compile files('libs/shapeAnimationJar.jar')
+    compile files('libs/shimmer.jar')
+}

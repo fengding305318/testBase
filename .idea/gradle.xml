@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AMap_Android_API_2DMap_Demo_V2.8.1" />
+            <option value="$PROJECT_DIR$/CheeseFive" />
+            <option value="$PROJECT_DIR$/PowerView" />
+            <option value="$PROJECT_DIR$/Side-Menu.Android-master" />
+            <option value="$PROJECT_DIR$/animationDemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/browser" />
+            <option value="$PROJECT_DIR$/classifyDemo" />
+            <option value="$PROJECT_DIR$/continuousIatDemo" />
+            <option value="$PROJECT_DIR$/faceDemo" />
+            <option value="$PROJECT_DIR$/five01" />
+            <option value="$PROJECT_DIR$/fruitKiller" />
+            <option value="$PROJECT_DIR$/hWComparePhotos" />
+            <option value="$PROJECT_DIR$/horizontalSlideDeleteListView" />
+            <option value="$PROJECT_DIR$/hotel" />
+            <option value="$PROJECT_DIR$/javaapkcomOnTheWay" />
+            <option value="$PROJECT_DIR$/javaapkcomViewJarDemo" />
+            <option value="$PROJECT_DIR$/jpush" />
+            <option value="$PROJECT_DIR$/junQi" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/mFtest" />
+            <option value="$PROJECT_DIR$/prepareLogin" />
+            <option value="$PROJECT_DIR$/qQClient" />
+            <option value="$PROJECT_DIR$/sheepCard" />
+            <option value="$PROJECT_DIR$/side-menu-android-master" />
+            <option value="$PROJECT_DIR$/tzfe" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/alphaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha效果"/>
+        <Button 
+            android:id="@+id/leftButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left效果"/>
+        <Button 
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right效果"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/bottomButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom效果"/>
+        <Button 
+            android:id="@+id/bottomRightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BottomRight效果"/>
+        <Button 
+            android:id="@+id/scaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale效果"/>
+        
+    </LinearLayout>
+    
+    <com.sanping.draglistview.DynamicListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.sanping.draglistview.DynamicListView>
+
+</LinearLayout>

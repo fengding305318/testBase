@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "tk.woppo.mgame"
+        minSdkVersion 8
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:18.+'
+    compile files('libs/banner-com.phkg.b-1.1.5.jar')
+    compile files('libs/YoumiSdk_v4.09_2014-06-16.jar')
+}

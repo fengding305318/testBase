@@ -1,0 +1,12 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">人脸照片比对排序</string>
+    <string name="hello_world">欢迎使用人脸照片比对程序</string>
+    <string name="settings">设置时间</string>
+    <string name="loc_settings">设置定位阈值</string>
+    <string name="recog_settings">设置识别阈值(取值：0-1)</string>
+    <string name="confim">确定</string>
+    <string name="cancel">取消</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

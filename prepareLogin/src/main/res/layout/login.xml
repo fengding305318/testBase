@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget46"
+    android:layout_width="fill_parent"
+    android:layout_height="355sp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/headbar_layout_ly2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/include_top"
+            layout="@layout/title_bar" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/linear2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip" >
+
+        <Gallery
+            android:id="@+id/loginImageList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </Gallery>
+
+    
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ico_close" />
+    </FrameLayout>
+
+</LinearLayout>

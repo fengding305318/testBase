@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidViewJarDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_load_html">LoadHtmlActivity</string>
+    <string name="title_activity_pull_door">PullDoorActivity</string>
+    <string name="title_activity_lens_focus">LensFocusActivity</string>
+    <string name="title_activity_taobao_menu">TaobaoMenuActivity</string>
+    <string name="title_activity_button_to_be_progress">ButtonToBeProgressActivity</string>
+    <string name="title_activity_jump_text">JumpTextActivity</string>
+    <string name="title_activity_maskable">MaskableActivity</string>
+    <string name="title_activity_usr_style">UsrStyleActivity</string>
+    <string name="title_activity_flip_view">FlipViewActivity</string>
+    <string name="title_activity_shimmer_jump_text">ShimmerJumpTextActivity</string>
+    <string name="title_activity_progress_with_num">ProgressWithNumActivity</string>
+
+</resources>

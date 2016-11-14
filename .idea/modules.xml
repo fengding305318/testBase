@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AMap_Android_API_2DMap_Demo_V2.8.1/AMap_Android_API_2DMap_Demo_V2.8.1.iml" filepath="$PROJECT_DIR$/AMap_Android_API_2DMap_Demo_V2.8.1/AMap_Android_API_2DMap_Demo_V2.8.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheeseFive/CheeseFive.iml" filepath="$PROJECT_DIR$/CheeseFive/CheeseFive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PowerView/PowerView.iml" filepath="$PROJECT_DIR$/PowerView/PowerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Side-Menu.Android-master/Side-Menu.Android-master.iml" filepath="$PROJECT_DIR$/Side-Menu.Android-master/Side-Menu.Android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animationDemo/animationDemo.iml" filepath="$PROJECT_DIR$/animationDemo/animationDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/browser/browser.iml" filepath="$PROJECT_DIR$/browser/browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classifyDemo/classifyDemo.iml" filepath="$PROJECT_DIR$/classifyDemo/classifyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/continuousIatDemo/continuousIatDemo.iml" filepath="$PROJECT_DIR$/continuousIatDemo/continuousIatDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/faceDemo/faceDemo.iml" filepath="$PROJECT_DIR$/faceDemo/faceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/five01/five01.iml" filepath="$PROJECT_DIR$/five01/five01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fruitKiller/fruitKiller.iml" filepath="$PROJECT_DIR$/fruitKiller/fruitKiller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hWComparePhotos/hWComparePhotos.iml" filepath="$PROJECT_DIR$/hWComparePhotos/hWComparePhotos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/horizontalSlideDeleteListView/horizontalSlideDeleteListView.iml" filepath="$PROJECT_DIR$/horizontalSlideDeleteListView/horizontalSlideDeleteListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hotel/hotel.iml" filepath="$PROJECT_DIR$/hotel/hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaapkcomOnTheWay/javaapkcomOnTheWay.iml" filepath="$PROJECT_DIR$/javaapkcomOnTheWay/javaapkcomOnTheWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaapkcomViewJarDemo/javaapkcomViewJarDemo.iml" filepath="$PROJECT_DIR$/javaapkcomViewJarDemo/javaapkcomViewJarDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpush/jpush.iml" filepath="$PROJECT_DIR$/jpush/jpush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junQi/junQi.iml" filepath="$PROJECT_DIR$/junQi/junQi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mFtest/mFtest.iml" filepath="$PROJECT_DIR$/mFtest/mFtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prepareLogin/prepareLogin.iml" filepath="$PROJECT_DIR$/prepareLogin/prepareLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qQClient/qQClient.iml" filepath="$PROJECT_DIR$/qQClient/qQClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sheepCard/sheepCard.iml" filepath="$PROJECT_DIR$/sheepCard/sheepCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/side-menu-android-master/side-menu-android-master.iml" filepath="$PROJECT_DIR$/side-menu-android-master/side-menu-android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sockettest.iml" filepath="$PROJECT_DIR$/sockettest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tzfe/tzfe.iml" filepath="$PROJECT_DIR$/tzfe/tzfe.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.amap.api.maps2d.MapView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+<!-- From: file:/C:/fengding/ADB/sockettest/AMap_Android_API_2DMap_Demo_V2.8.1/res/layout/groundoverlay_activity.xml -->

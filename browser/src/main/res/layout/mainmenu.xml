@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:background="@drawable/lvv">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:orientation="horizontal">
+        <EditText android:text="搜索" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_gravity="center" android:layout_width="250dip"></EditText>
+        <Button android:id="@+id/button1" android:text="搜索" android:layout_width="70dip" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout6" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent">
+        <EditText android:id="@+id/editText2" android:text="请输入网址" android:layout_height="wrap_content" android:layout_width="250dip"></EditText>
+        <Button android:id="@+id/button2" android:text="搜索" android:layout_height="wrap_content" android:layout_width="70dip"></Button>
+    </LinearLayout>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/baidu" android:id="@+id/imageButton_Baidu"></ImageButton>
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/jingdong" android:id="@+id/imageButton_Jindong"></ImageButton>
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/chuangye" android:id="@+id/imageButton_78"></ImageButton>
+		<ImageButton android:id="@+id/imageButton10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jingdong"></ImageButton>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/taobao" android:id="@+id/imageButton_TaoBao"></ImageButton>
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/xinlang" android:id="@+id/imageButton_Sina"></ImageButton>
+		<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nba" android:id="@+id/imageButton_NBA"></ImageButton>
+		<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc" android:layout_gravity="center_horizontal" android:id="@+id/imageButton_58"></ImageButton>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/tengxun" android:id="@+id/imageButton_Tengxun"></ImageButton>
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/fanke" android:id="@+id/imageButton_Fanke"></ImageButton>
+		<ImageButton android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/renren" android:id="@+id/imageButton_Renren"></ImageButton>
+		<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zhenai" android:id="@+id/imageButton_Zhenai"></ImageButton>
+	</LinearLayout>
+	<HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/horizontalScrollView1">
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:id="@+id/linearLayout5"></LinearLayout>
+	</HorizontalScrollView>
+	
+</LinearLayout>

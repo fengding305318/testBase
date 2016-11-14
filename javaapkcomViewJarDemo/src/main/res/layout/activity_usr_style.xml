@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="36sp"
+        android:textColor="#ffff00"
+        android:text="如何利用style减少代码"/>
+    
+   	<Button
+            android:id="@+id/btn1"
+            style="@style/my_btn"
+            android:text="第一个按钮"/>
+   	
+   	<Button
+            android:id="@+id/btn2"
+            style="@style/btn_for_parent"
+            android:text="第一继承父的按钮"/>
+   	
+   	
+   	<!-- 这个地方是加上自定义的属性，注意前面是app，而且在xml上有标注：xmlns:app="http://schemas.android.com/apk/res-auto"-->
+   	<com.sanping.usestyle.MyButton
+   	    android:id="@+id/myBtn1"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Button"
+   	    app:cp_string="Complete"
+   	    app:cp_color="#666666"
+   	    app:cp_dimension="30sp"
+   	    app:cp_reference="@drawable/composer_sleep"/>
+   	
+   	<com.sanping.usestyle.MyButton
+   	    android:id="@+id/myBtn2"
+   	    style="@style/userSelfButton"/>
+
+</LinearLayout>
